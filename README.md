@@ -1,12 +1,25 @@
-- 👋 Hi, I’m @emilio-2008
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+import pyautogui as mouse
+import pyautogui as tempo
 
-<!---
-emilio-2008/emilio-2008 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#temo de espera
+mouse.sleep(3)
+print('Robô ligado!')
+tempo.sleep(2)
+mouse.click(527, 753)
+
+tempo.sleep(2)
+mouse.typewrite('calculadora')
+tempo.sleep(2)
+mouse.click(508, 178)
+tempo.sleep(2)
+mouse.click(351, 447)
+mouse.sleep(2)
+mouse.click(486, 560)
+mouse.sleep(2)
+mouse.click(216, 566)
+mouse.sleep(2)
+mouse.click(436, 628)
+mouse.sleep(2)
+mouse.click(823, 44)
+mouse.sleep(3)
+print('Robô desligado!')
